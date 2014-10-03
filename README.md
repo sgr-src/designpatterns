@@ -2,7 +2,7 @@ designpatterns
 ==============
 
 *Training for the application of design patterns (GoF)*
----
+
 ---
 
 ##Patterns (GoF) overview :##
@@ -10,7 +10,7 @@ designpatterns
 
 1.Creational | 2. Structural | 3. Behavioral
 -----------|-------------------|------------------------
-1.1 factory method | 2.1 adapter |3.1 interpreter
+[1.1 factory method] (###1. Week) | 2.1 adapter |3.1 interpreter
 1.2 abstract factory |2.2 bridge|3.2 template
 1.3 singleton|2.3 wrapper|3.3 observer
 1.4 builder|2.4 facade|3.4 visitor
@@ -33,6 +33,7 @@ designpatterns
  
 
 ---
+
 
 
 
