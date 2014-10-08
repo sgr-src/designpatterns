@@ -1,4 +1,5 @@
 package soreco.training.designpatterns.creational.abstractfactory;
 
-public class ElfKingdomFactory {
+
+public class ElfArmy implements Army {
 }
