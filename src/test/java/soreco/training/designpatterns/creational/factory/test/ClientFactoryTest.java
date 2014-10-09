@@ -4,17 +4,16 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
-import soreco.training.designpatterns.creational.factory.Product;
-import soreco.training.designpatterns.creational.factory.ProductFactory;
+import soreco.training.designpatterns.creational.factory.*;
 
 
 public class ClientFactoryTest {
 
-    private ProductFactory pf;
+    private ProductFactory pf;    
 
     @Before
     public void init (){
-        pf = new ProductFactory();
+        pf = new ProductFactory();       
     }
 
     @Test
