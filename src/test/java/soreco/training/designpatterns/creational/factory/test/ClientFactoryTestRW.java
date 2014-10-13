@@ -4,16 +4,16 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
-import soreco.training.designpatterns.creational.factory.*;
+import soreco.training.designpatterns.creational.rw.factory.*;
 
 
-public class ClientFactoryTest {
+public class ClientFactoryTestRW {
 
-    private ProductFactory pf;    
+    private ProductFactory pf;
 
     @Before
     public void init (){
-        pf = new ProductFactory();       
+        pf = new ProductFactory();
     }
 
     @Test
@@ -23,7 +23,7 @@ public class ClientFactoryTest {
         prod = pf.createProduct("A");
         prod.setName("John Doe");
 
-        assertEquals("My name is John Doe",prod.getName());
+        assertEquals("My name is John Doe", prod.getName());
     }
 
     @Test
@@ -32,7 +32,8 @@ public class ClientFactoryTest {
         Product prod;
         prod = pf.createProduct("B");
         prod.setName("John Doe");
-
-        assertEquals("My reversed name is eoD nhoJ",prod.getName());
+        
+        //My reversed name is
+        assertEquals("My name is eoD nhoJ", prod.getName());
     }
 }
