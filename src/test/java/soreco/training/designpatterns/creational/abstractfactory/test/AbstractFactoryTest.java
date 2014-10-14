@@ -19,25 +19,26 @@ public class AbstractFactoryTest {
     }
     
     /**
-     * Elf Kingdom
+     * Elf Kingdom 
      */
-
     @Test
     public void testCreateElfKingdomSize () {
         
         KingdomFactory factory = new ElfKingdomFactory();
         
         King king = factory.createKing();
+        Queen queen = factory.createQueen();
         Castle castle = factory.createCastle();
         Army army = factory.createArmy();
 
         ArrayList<Object> elfKingdom = new ArrayList();
 
         elfKingdom.add(king);
+        elfKingdom.add(queen);
         elfKingdom.add(castle);
         elfKingdom.add(army);
 
-        assertTrue(elfKingdom.size() == 3);
+        assertTrue(elfKingdom.size() == 4);
     }    
     
     @Test
@@ -45,6 +46,13 @@ public class AbstractFactoryTest {
         KingdomFactory factory = new ElfKingdomFactory();
         King king = factory.createKing();
         assertTrue(king instanceof ElfKing);
+    }
+    
+    @Test
+    public void testCreateElfKingdomQueen () {
+        KingdomFactory factory = new ElfKingdomFactory();
+        Queen queen = factory.createQueen();
+        assertTrue(queen instanceof ElfQueen);
     }
     
     @Test
@@ -61,26 +69,35 @@ public class AbstractFactoryTest {
         assertTrue(army instanceof ElfArmy);
     }
     
+    
     /**
      * Orc Kingdom
-     */
-
+     */ 
     @Test
     public void testCreateOrcKingdomSize () {
 
         KingdomFactory factory = new OrcKingdomFactory();
 
         King king = factory.createKing();
+        Queen queen = factory.createQueen();
         Castle castle = factory.createCastle();
         Army army = factory.createArmy();
 
         ArrayList<Object> orcKingdom = new ArrayList();
 
         orcKingdom.add(king);
+        orcKingdom.add(queen);
         orcKingdom.add(castle);
         orcKingdom.add(army);
 
-        assertTrue(orcKingdom.size() == 3);
+        assertTrue(orcKingdom.size() == 4);
+    }
+    
+    @Test
+    public void testCreateOrcKingdomQueen () {
+        KingdomFactory factory = new OrcKingdomFactory();
+        Queen queen = factory.createQueen();
+        assertTrue(queen instanceof OrcQueen);
     }
     
     @Test
