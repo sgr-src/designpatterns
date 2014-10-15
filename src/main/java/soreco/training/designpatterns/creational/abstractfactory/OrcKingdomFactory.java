@@ -3,14 +3,18 @@ package soreco.training.designpatterns.creational.abstractfactory;
 public class OrcKingdomFactory implements KingdomFactory {
 
     public Castle createCastle() {
-        return new ElfCastle();
+        return new OrcCastle();
     }
 
     public King createKing() {
-        return new ElfKing();
+        return new OrcKing();
+    }
+    
+    public Queen createQueen() {
+        return new OrcQueen();
     }
 
     public Army createArmy() {
-        return new ElfArmy();
+        return new OrcArmy();
     }
 }
