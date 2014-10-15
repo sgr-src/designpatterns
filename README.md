@@ -17,10 +17,11 @@ designpatterns
 [1.5 prototype (15.10.2014)] (#3-week)|2.5 facade (06.11.2014)  |3.5 mediator (27.11.2014)
 ||2.6 flyweight (06.11.2014)|3.6 memento (27.11.2014)
 ||2.7 proxy (06.11.2014)|3.7 observer (04.12.2014)
-|| ||3.8 state (04.12.2014)
-|| ||3.9 strategy (11.12.2014)
-|| ||3.10 template method (11.12.2014)
-|| ||3.11 visitor (11.12.2014)
+|||3.8 state (04.12.2014)
+|||3.9 strategy (11.12.2014)
+|||3.10 template method (11.12.2014)
+|||3.11 visitor (11.12.2014)
+
 ---
 
 Anti-Pattern (18.12.2014) 
