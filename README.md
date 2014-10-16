@@ -33,6 +33,7 @@ Anti-Pattern (18.12.2014)
 
 
 >**1. Creational pattern**
+---
 
 >***1.1. Factory method***
  
@@ -45,7 +46,7 @@ Anti-Pattern (18.12.2014)
 
 
 >**1. Creational pattern**
-
+---
 >***1.2 Abstract factory*** 
 
 > [Presentation ](http://goo.gl/DPcCaG)
@@ -56,7 +57,7 @@ Anti-Pattern (18.12.2014)
 (16.10.2014)
 
 >**1. Creational pattern**
-
+---
 >***1.3 Singleton***
 
 >***1.4 Builder***
