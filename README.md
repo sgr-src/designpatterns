@@ -36,7 +36,7 @@ Anti-Pattern (18.12.2014)
 
 >***1.1. Factory method***
  
->***> [Presentation ](http://goo.gl/XX4sMJ)
+> [Presentation ](http://goo.gl/XX4sMJ)
  
 ---
 
@@ -48,7 +48,7 @@ Anti-Pattern (18.12.2014)
 
 >***1.2 Abstract factory*** 
 
->***> [Presentation ](http://goo.gl/DPcCaG)
+> [Presentation ](http://goo.gl/DPcCaG)
 
 ---
 
@@ -63,7 +63,7 @@ Anti-Pattern (18.12.2014)
 
 >***1.5 Prototype***
 
->***> [Presentation ] (http://goo.gl/jFz1qT)
+> [Presentation ] (http://goo.gl/jFz1qT)
 
 ---
 
