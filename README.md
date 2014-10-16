@@ -34,7 +34,9 @@ Anti-Pattern (18.12.2014)
 
 >**1. Creational pattern**
 
->***1.1. Factory method*** > [Presentation ](http://goo.gl/XX4sMJ)
+>***1.1. Factory method***
+ 
+>***> [Presentation ](http://goo.gl/XX4sMJ)
  
 ---
 
@@ -44,11 +46,14 @@ Anti-Pattern (18.12.2014)
 
 >**1. Creational pattern**
 
->***1.2 Abstract factory*** > [Presentation ](http://goo.gl/DPcCaG)
+>***1.2 Abstract factory*** 
+
+>***> [Presentation ](http://goo.gl/DPcCaG)
+
+---
 
 ###3. Week 
 (16.10.2014)
-
 
 >**1. Creational pattern**
 
@@ -56,7 +61,11 @@ Anti-Pattern (18.12.2014)
 
 >***1.4 Builder***
 
+>***1.5 Prototype***
 
+>***> [Presentation ] (http://goo.gl/jFz1qT)
+
+---
 
 
 
