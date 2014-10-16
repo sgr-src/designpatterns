@@ -32,7 +32,7 @@ Anti-Pattern (18.12.2014)
 (02.10.2014)
 
 
->**1. Creational pattern**
+>***1. Creational pattern***
 ---
 
 >***1.1. Factory method***
@@ -45,7 +45,7 @@ Anti-Pattern (18.12.2014)
 (09.10.2014)
 
 
->**1. Creational pattern**
+>***1. Creational pattern***
 ---
 >***1.2 Abstract factory*** 
 
@@ -56,7 +56,7 @@ Anti-Pattern (18.12.2014)
 ###3. Week 
 (16.10.2014)
 
->**1. Creational pattern**
+>***1. Creational pattern***
 ---
 >***1.3 Singleton***
 
