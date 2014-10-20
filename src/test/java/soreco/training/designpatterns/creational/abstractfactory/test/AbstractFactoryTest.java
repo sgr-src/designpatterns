@@ -12,11 +12,6 @@ import static org.junit.Assert.assertTrue;
  * Created by Sergej Grebenjuk on 08.10.14.
 **/ 
 public class AbstractFactoryTest {
-
-    @Before
-    public void init () {
-
-    }
     
     /**
      * Elf Kingdom 
@@ -45,6 +40,7 @@ public class AbstractFactoryTest {
     public void testCreateElfKingdomKing () {
         KingdomFactory factory = new ElfKingdomFactory();
         King king = factory.createKing();
+        
         assertTrue(king instanceof ElfKing);
     }
     
@@ -52,6 +48,7 @@ public class AbstractFactoryTest {
     public void testCreateElfKingdomQueen () {
         KingdomFactory factory = new ElfKingdomFactory();
         Queen queen = factory.createQueen();
+        
         assertTrue(queen instanceof ElfQueen);
     }
     
@@ -59,6 +56,7 @@ public class AbstractFactoryTest {
     public void testCreateElfKingdomCastle () {
         KingdomFactory factory = new ElfKingdomFactory();
         Castle castle = factory.createCastle();
+        
         assertTrue(castle instanceof ElfCastle);
     }
     
@@ -66,6 +64,7 @@ public class AbstractFactoryTest {
     public void testCreateElfKingdomArmy () {
         KingdomFactory factory = new ElfKingdomFactory();
         Army army = factory.createArmy();
+        
         assertTrue(army instanceof ElfArmy);
     }
     
@@ -97,6 +96,7 @@ public class AbstractFactoryTest {
     public void testCreateOrcKingdomQueen () {
         KingdomFactory factory = new OrcKingdomFactory();
         Queen queen = factory.createQueen();
+        
         assertTrue(queen instanceof OrcQueen);
     }
     
@@ -104,6 +104,7 @@ public class AbstractFactoryTest {
     public void testCreateOrcKingdomKing () {
         KingdomFactory factory = new OrcKingdomFactory();
         King king = factory.createKing();
+        
         assertTrue(king instanceof OrcKing);
     }
     
@@ -111,6 +112,7 @@ public class AbstractFactoryTest {
     public void testCreateOrcKingdomCastle () {
         KingdomFactory factory = new OrcKingdomFactory();
         Castle castle = factory.createCastle();
+        
         assertTrue(castle instanceof OrcCastle);
     }
     
@@ -118,6 +120,7 @@ public class AbstractFactoryTest {
     public void testCreateOrcKingdomArmy () {
         KingdomFactory factory = new OrcKingdomFactory();
         Army army = factory.createArmy();
+        
         assertTrue(army instanceof OrcArmy);
     }
 }
