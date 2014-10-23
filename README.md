@@ -56,7 +56,11 @@ Anti-Pattern (18.12.2014)
 
 ---
 
+###4. Week / Creational pattern / (23.10.2014)
 
+>***Application of Design Patterns, XML Handling***
+
+> [Presentation ](http://goo.gl/XNzVvm)
 
 
 
